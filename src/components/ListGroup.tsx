@@ -17,9 +17,7 @@ function ListGroup() {
           <li
             className="list-group-item"
             key={item}
-            onClick={(event) => {
-              console.log(item, index, event);
-            }}
+            onClick={handleClick}
           >
             {item}
           </li>
